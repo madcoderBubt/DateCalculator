@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="winagecal.exe" version="1.0.0.0" publicKeyToken="834a581d8272bc8c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="winagecal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="winagecal.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="winagecal.exe" size="462848">
+      <assemblyIdentity name="winagecal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3/Sxuj3KIwIl9lXSG1sXJluVYfo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=SHBSOVON\Sudhananda Biswas" issuerKeyHash="5fbda6db018ea1277557b8adce33eeee788155fa" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>pT7pRlCzglPUQSCF0/rw1oKtBc4=</DigestValue></Reference></SignedInfo><SignatureValue>EtecrtaISPgCWdwk32m+g3zccpwhB9n62nyqIrS+YnsYTk128A8RTt+qiqo0CjJSv/bfRG+9lUerb+z+aGRMSZqEy/7JjK0jniVuEb/miZL6oXe374UTe2P/J8EashZe7mAocIJcfQeAX+QI0DdLH536uIBN0J/GvA57y+MXzBY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q1zkGgMAYd95O3lpJssRKdHKwhSbnjh3a6bX171SLLwNKi82h7nyjHpbA2dCy7Yd9enzygfdYxlyklGjd/+VJoeMagq5rSFjtcqpl5fx1aLBMQfU2d62ALK4Jh8Vb1Evh3WZClNx93sr5+vqlNYTew8J66Ty36tJW03xp6zysC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ce05ad82d6f0fad3852041d45382b35046e93ea5" Description="" Url=""><as:assemblyIdentity name="winagecal.exe" version="1.0.0.0" publicKeyToken="834a581d8272bc8c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SHBSOVON\Sudhananda Biswas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>v/DFejrrEMJRM49UxVRuXfr2ihE=</DigestValue></Reference></SignedInfo><SignatureValue>NkgH3sEZWHo7N1MRvUHBoMUqsKP8dBftdMBamU1NvAdFto89vCufKdQ0korySRMU0TzrEPzifv4cMsgRdmmpi7ilMHFXoYczoJIbkObIcOkJ2fdaNch0axokhyCyyIQrYGTkKJhiDwf3vyuynDY5xKqIHPRTTtNRAoqZFJwtziU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q1zkGgMAYd95O3lpJssRKdHKwhSbnjh3a6bX171SLLwNKi82h7nyjHpbA2dCy7Yd9enzygfdYxlyklGjd/+VJoeMagq5rSFjtcqpl5fx1aLBMQfU2d62ALK4Jh8Vb1Evh3WZClNx93sr5+vqlNYTew8J66Ty36tJW03xp6zysC0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQXoRXpOm/LIlEHjv2jFKkoTANBgkqhkiG9w0BAQUFADA/MT0wOwYDVQQDHjQAUwBIAEIAUwBPAFYATwBOAFwAUwB1AGQAaABhAG4AYQBuAGQAYQAgAEIAaQBzAHcAYQBzMB4XDTE1MDUyNDA0NTgwNFoXDTE2MDUyMzEwNTgwNFowPzE9MDsGA1UEAx40AFMASABCAFMATwBWAE8ATgBcAFMAdQBkAGgAYQBuAGEAbgBkAGEAIABCAGkAcwB3AGEAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAq1zkGgMAYd95O3lpJssRKdHKwhSbnjh3a6bX171SLLwNKi82h7nyjHpbA2dCy7Yd9enzygfdYxlyklGjd/+VJoeMagq5rSFjtcqpl5fx1aLBMQfU2d62ALK4Jh8Vb1Evh3WZClNx93sr5+vqlNYTew8J66Ty36tJW03xp6zysC0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQAS3zKuB6UmiIABx/Pzydc14BonE23PZWr0iPk76OA4X45hLJf1puV3+Qwai1Bmv8unSaZ02wE80NwhcrElDZ2O09JrKMCcJ85Xo350bbsqOW2JbD0g7vhYXZUPieYmUlJkDi98lU/f+LCecx3K/Wz6mLQU94pxEZ135vUb9u6NGg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

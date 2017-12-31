@@ -1,0 +1,7 @@
+C:\Users\Sachidananda Biswas\Documents\Visual Studio 2015\Projects\winagecal\winagecal\bin\Release\winagecal.exe.config
+C:\Users\Sachidananda Biswas\Documents\Visual Studio 2015\Projects\winagecal\winagecal\obj\Release\winagecal.aboutbox.resources
+C:\Users\Sachidananda Biswas\Documents\Visual Studio 2015\Projects\winagecal\winagecal\obj\Release\winagecal.Form1.resources
+C:\Users\Sachidananda Biswas\Documents\Visual Studio 2015\Projects\winagecal\winagecal\obj\Release\winagecal.Properties.Resources.resources
+C:\Users\Sachidananda Biswas\Documents\Visual Studio 2015\Projects\winagecal\winagecal\obj\Release\winagecal.csproj.GenerateResource.Cache
+C:\Users\Sachidananda Biswas\Documents\Visual Studio 2015\Projects\winagecal\winagecal\obj\Release\winagecal.exe
+C:\Users\Sachidananda Biswas\Documents\Visual Studio 2015\Projects\winagecal\winagecal\obj\Release\winagecal.pdb
